@@ -27,9 +27,15 @@ export PYTHONPATH=$TVM_HOME/python:${PYTHONPATH}
 https://github.com/BBuf/tvm_learn
 
 
-TVM的思想可以总结为表示和调度分离，所谓表示就是IR，调度就是scheduler
+TVM的思想可以总结为表示和调度分离，所谓表示就是IR，调度就是schedule
 
 scheduler是一系列优化方法的集合，不影响结果，只影响性能。
 
 ![image](https://github.com/wustjie/ai-compiler/assets/34996802/a555e5d7-6a5d-4c15-8d83-1a356e8944aa)
+
+tvm.schedule当中的API例程：https://github.com/StrongSpoon/tvm.schedule
+
+
+
+
 
