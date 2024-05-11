@@ -5,6 +5,9 @@ ai编译器与传统编译器结构相似：
 ·编译器中端：接收IR，进行不同编译器后端可以共享的优化，如常量替换，死代码消除，循环优化等，吐出优化后的IR  
 ·编译器后端：接收优化后的IR，进行不同硬件的平台相关优化与硬件指令生成，吐出目标文件  
 
+![image](https://github.com/wustjie/ai-compiler/assets/34996802/0d03d521-38e3-4779-86fd-ce8efe3715de)
+
+
 环境配置/docker
 ```
 docker pull tvmai/demo-gpu
